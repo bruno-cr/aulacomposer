@@ -1,0 +1,29 @@
+{
+  "name": "bruno-cr/aulacomposer",
+  "description": "Conhecendo o Composer",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bruno Camargo",
+      "email": "bruno.cr@outlook.com.br",
+      "role": "Desenvolvedor",
+      "homepage": "https://github.com/bruno-cr"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "lib/"
+    },
+    "files": [
+      "lib/config.php"
+    ]
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "phpmailer/phpmailer": "^6.5"
+  }
+}
